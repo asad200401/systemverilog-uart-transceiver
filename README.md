@@ -60,9 +60,13 @@ IDLE --> START --> DATA --> STOP --> IDLE
 
 <img width="1358" height="346" alt="image" src="https://github.com/user-attachments/assets/dc84a2e4-c20d-4fd6-86fb-8d4dd608b021" />
 
-# Key Observations:
+**Key Observations:**
 - Data `0xAA` and `0x55` transmitted successfully
 - Receiver correctly samples and reconstructs the data
 - `tx_status` and `rx_status` signals work as expected
 - Proper start bit, data bits (LSB first), and stop bit behavior
 - No framing errors — clean data recovery
+
+# Conclusion
+
+Successfully designed and verified a Full-Duplex UART Transceiver in SystemVerilog, featuring a baud rate generator, transmitter, and receiver with 8× oversampling. The design correctly implements the 8N1 UART protocol at 9600 baud and was validated through comprehensive simulation and testbench verification, demonstrating reliable serial communication suitable for FPGA and ASIC-based digital systems.
