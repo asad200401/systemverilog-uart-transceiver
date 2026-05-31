@@ -30,12 +30,13 @@ communication system in SystemVerilog.
 
 # Uart Transmitter:
 **FSM States:**
-IDLE
- ↓
-START
- ↓
-DATA
- ↓
-STOP
- ↓
-IDLE
+
+- IDLE
+   ↓
+- START
+   ↓
+- DATA
+   ↓
+- STOP
+   ↓
+- IDLE
