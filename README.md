@@ -55,3 +55,14 @@ IDLE --> START --> DATA --> STOP --> IDLE
 **FSM States:**
 
 IDLE --> START --> DATA --> STOP --> IDLE
+
+# Simulation Result:
+
+<img width="1358" height="346" alt="image" src="https://github.com/user-attachments/assets/dc84a2e4-c20d-4fd6-86fb-8d4dd608b021" />
+
+# Key Observations:
+- Data `0xAA` and `0x55` transmitted successfully
+- Receiver correctly samples and reconstructs the data
+- `tx_status` and `rx_status` signals work as expected
+- Proper start bit, data bits (LSB first), and stop bit behavior
+- No framing errors — clean data recovery
