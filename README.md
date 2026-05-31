@@ -27,3 +27,15 @@ communication system in SystemVerilog.
 **Generates:**
 - bclk    = 9600 Hz
 - bclkx8  = 76800 Hz
+
+# Uart Transmitter:
+**FSM States:**
+IDLE
+ ↓
+START
+ ↓
+DATA
+ ↓
+STOP
+ ↓
+IDLE
