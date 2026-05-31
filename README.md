@@ -15,6 +15,11 @@ communication system in SystemVerilog.
 - Full Duplex Communication
 - Receiver Oversampling: 8x Baud Rate
 
-#Architecture
+# Architecture
 
 <img width="516" height="325" alt="image" src="https://github.com/user-attachments/assets/0cf1a8ec-b0d2-4fe2-bb16-d2d09942a5f4" />
+
+# Module Description
+**Baud Rate Generator**
+
+<img width="822" height="212" alt="image" src="https://github.com/user-attachments/assets/d5157ced-401e-4c92-a221-a22193c25385" />
