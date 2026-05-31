@@ -14,3 +14,7 @@ communication system in SystemVerilog.
   - 1 Stop Bit
 - Full Duplex Communication
 - Receiver Oversampling: 8x Baud Rate
+
+#Architecture
+
+<img width="516" height="325" alt="image" src="https://github.com/user-attachments/assets/0cf1a8ec-b0d2-4fe2-bb16-d2d09942a5f4" />
