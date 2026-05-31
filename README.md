@@ -23,3 +23,7 @@ communication system in SystemVerilog.
 **Baud Rate Generator**
 
 <img width="822" height="212" alt="image" src="https://github.com/user-attachments/assets/d5157ced-401e-4c92-a221-a22193c25385" />
+
+**Generates:**
+- bclk    = 9600 Hz
+- bclkx8  = 76800 Hz
