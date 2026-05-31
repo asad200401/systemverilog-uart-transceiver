@@ -1,6 +1,6 @@
 # UART Communication Protocol in SystemVerilog
 
-![Uart](https://img.shields.io/badge/UART--V-uart-blue)
+![Uart](https://img.shields.io/badge/UART-uart-blue)
 ![SystemVerilog](https://img.shields.io/badge/Language-SystemVerilog-orange)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
