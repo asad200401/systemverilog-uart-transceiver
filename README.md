@@ -70,3 +70,9 @@ IDLE --> START --> DATA --> STOP --> IDLE
 # Conclusion
 
 Successfully designed and verified a Full-Duplex UART Transceiver in SystemVerilog, featuring a baud rate generator, transmitter, and receiver with 8× oversampling. The design correctly implements the 8N1 UART protocol at 9600 baud and was validated through comprehensive simulation and testbench verification, demonstrating reliable serial communication suitable for FPGA and ASIC-based digital systems.
+
+# Author
+
+**Asad Iqbal**
+
+⭐ If this helped you, please star the repository!
