@@ -39,3 +39,15 @@ IDLE --> START --> DATA --> STOP --> IDLE
 - Stop bit generation
 - Busy/Ready status signal
 
+# UART Receiver
+
+**Features:**
+- Double-flop synchronization
+- Start bit detection
+- 8x oversampling
+- Majority voting
+- Stop-bit validation
+
+**FSM States:**
+
+IDLE --> START --> DATA --> STOP --> IDLE
