@@ -30,6 +30,5 @@ communication system in SystemVerilog.
 
 # Uart Transmitter:
 **FSM States:**
-
-<img width="54" height="182" alt="image" src="https://github.com/user-attachments/assets/85625b61-6feb-4368-9187-1a032c516918" />
+IDLE --> START --> DATA --> STOP --> IDLE
 
