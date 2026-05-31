@@ -1,1 +1,23 @@
+# Vivado
+*.jou
+*.log
+*.str
+*.dir/
+.xil/
+*.cache/
+*.runs/
+*.hw/
+*.ip_user_files/
+*.sim/
+*.srcs/
+*.gen/
+*.bd/
 
+# Simulation
+*.vcd
+*.wdb
+*.vstf
+
+# OS
+.DS_Store
+Thumbs.db
