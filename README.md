@@ -33,3 +33,9 @@ communication system in SystemVerilog.
 
 IDLE --> START --> DATA --> STOP --> IDLE
 
+**Features:**
+- LSB first transmission
+- Start bit generation
+- Stop bit generation
+- Busy/Ready status signal
+
