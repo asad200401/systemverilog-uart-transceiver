@@ -33,28 +33,26 @@ communication system in SystemVerilog.
 - bclkx8  = 76800 Hz
 
 # Uart Transmitter:
-**FSM States:**
 
-IDLE --> START --> DATA --> STOP --> IDLE
+**FSM States:**  
+`IDLE → START → DATA → STOP → IDLE`
 
 **Features:**
 - LSB first transmission
 - Start bit generation
 - Stop bit generation
-- Busy/Ready status signal
+- Busy/Ready status signal (`tx_status`)
 
 # UART Receiver
 
+**FSM States:**  
+`IDLE → START → DATA → STOP → IDLE`
+
 **Features:**
-- Double-flop synchronization
 - Start bit detection
-- 8x oversampling
-- Majority voting
+- 8× oversampling
 - Stop-bit validation
-
-**FSM States:**
-
-IDLE --> START --> DATA --> STOP --> IDLE
+- Frame valid status (`rx_status`)
 
 # Simulation Result:
 
