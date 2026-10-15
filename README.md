@@ -35,6 +35,7 @@ communication system in SystemVerilog.
 # Uart Transmitter:
 
 **FSM States:**  
+
 `IDLE → START → DATA → STOP → IDLE`
 
 **Features:**
@@ -46,6 +47,7 @@ communication system in SystemVerilog.
 # UART Receiver
 
 **FSM States:**  
+
 `IDLE → START → DATA → STOP → IDLE`
 
 **Features:**
