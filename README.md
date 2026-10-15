@@ -56,14 +56,15 @@ communication system in SystemVerilog.
 
 # Simulation Result:
 
-<img width="1358" height="346" alt="image" src="https://github.com/user-attachments/assets/dc84a2e4-c20d-4fd6-86fb-8d4dd608b021" />
+<img width="1334" height="280" alt="image" src="https://github.com/user-attachments/assets/6c38c6b1-2d07-4e79-8024-52b4b0cdb0df" />
 
 **Key Observations:**
-- Data `0xAA` and `0x55` transmitted successfully
-- Receiver correctly samples and reconstructs the data
-- `tx_status` and `rx_status` signals work as expected
-- Proper start bit, data bits (LSB first), and stop bit behavior
-- No framing errors — clean data recovery
+- Data `0xA5` and `0x3C` transmitted and received successfully
+- `tx_data` shows correct start bit, data bits (LSB first), and stop bit
+- `data_out` correctly recovers the received bytes
+- `tx_status` goes low during transmission and returns high when ready
+- `rx_status` pulses high on valid frame reception
+- Clean full-duplex operation with no framing errors
 
 # Conclusion
 
