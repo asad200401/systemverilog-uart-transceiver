@@ -76,4 +76,3 @@ Successfully designed and verified a Full-Duplex UART Transceiver in SystemVeril
 
 **Asad Iqbal**
 
-⭐ If this helped you, please star the repository!
